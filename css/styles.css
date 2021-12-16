@@ -7,7 +7,7 @@ body {
     background: url('../images/bg-pattern-top.svg') bottom 35vh right 53.6vw no-repeat, url('../images/bg-pattern-bottom.svg') top 42vh left 48vw no-repeat #19A1AE;
 }
 
-.header img {
+header img {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     width: 100%;
