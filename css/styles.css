@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    background: url('../images/bg-pattern-top.svg') bottom 35vh right 53.6vw no-repeat, url('../images/bg-pattern-bottom.svg') top 42vh left 48vw no-repeat #19A1AE;
+}
+
+.header img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+}
+
+.profile {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    border: 5px solid #FFFFFF;
+    margin-top: -55px;
+}
+
+.profile .name {
+    padding-top: 15px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    color: #2E3349;
+    font-size: 18px;
+}
+
+.profile span {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 4px;
+    color: #6B7082;
+}
+
+.profile .city {
+    padding: 12px 0px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 14px;
+    color: #6B7082;
+    margin-bottom: 14px;
+}
+
+.details {
+    background-color: #FFFFFF;
+    border-top: 1px solid #E8E9EC;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    /*for ie*/
+    justify-content: space-around;
+    /*for moz & chrome*/
+    -webkit-justify-content: space-evenly !important;
+}
+
+.details .numbers {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2E3349;
+    margin-top: 14px;
+}
+
+.details .numbers div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+}
+
+.details .numbers span {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    color: #6B7082;
+}
+
+@media screen and (max-device-width: 480px) {
+    .container {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
